@@ -1,0 +1,14 @@
+apply plugin : 'java'
+
+sourceSets {
+	main {
+		java {
+			srcDir('src')
+		}
+	}
+}
+/*
+dependencies {
+	compile project(':Proj1')
+}
+*/
