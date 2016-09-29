@@ -1,10 +1,10 @@
 subprojects {
-	apply plugin : 'java';
-}
-
-project(':Proj2') {
-	dependencies {
-		compile project(':Proj1')
+	apply plugin : 'java'
+	sourceSets {
+		main {
+			java {
+				srcDir('src')
+			}
+		}
 	}
 }
-
